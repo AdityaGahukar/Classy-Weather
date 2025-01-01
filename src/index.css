@@ -64,6 +64,12 @@ input {
   max-width: 40rem;
 }
 
+input::placeholder {
+  font-size: 1.4rem;
+  color: #90a4ae;
+  text-transform: none;
+}
+
 input:focus {
   outline: none;
   border-color: #1e88e5;
